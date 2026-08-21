@@ -1,391 +1,535 @@
 # MPGI-MERN-MOCK-01
-
+````markdown
 # TaskFlow — HTML, CSS & JavaScript Mock Assessment
 
-## Frontend Development Mock Test
+## Frontend Development Assessment
 
-**Duration:** 3 Hours
-**Technology:** HTML5, CSS3, Vanilla JavaScript
-**Difficulty:** Intermediate
-**Maximum Score:** 100
+Welcome to the TaskFlow Frontend Development Mock Assessment.
+
+This assessment evaluates your practical understanding of:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- DOM manipulation
+- JavaScript arrays and objects
+- Events
+- Form handling
+- CRUD operations
+- Search and filtering
+- LocalStorage
+- Responsive web development
+- JavaScript debugging
+- Git and GitHub workflow
 
 ---
 
-## 1. Assessment Objective
+# 1. Assessment Information
+
+| Information | Details |
+|---|---|
+| Assessment | TaskFlow Frontend Development |
+| Technologies | HTML5, CSS3, Vanilla JavaScript |
+| Duration | 3 Hours |
+| Maximum Score | 100 |
+| Submission | GitHub Pull Request |
+| Development Environment | Local VS Code |
+| Frameworks | Not allowed |
+
+---
+
+# 2. Assessment Objective
 
 You are working as a junior frontend developer.
 
-Your task is to complete a **Task Management Dashboard** called **TaskFlow** using HTML, CSS, and vanilla JavaScript.
+Your task is to complete a task management web application called **TaskFlow**.
 
-The starter repository contains the basic project structure and assets. You are expected to implement the required user interface, styling, interactions, and functionality described below.
+A starter project has been provided containing:
 
-The objective of this assessment is to evaluate your ability to:
+- HTML structure
+- CSS starter styles
+- JavaScript starter code
+- Initial task data
+- Debugging exercises
 
-* Build structured HTML
-* Create responsive layouts using CSS
-* Manipulate the DOM using JavaScript
-* Handle user interactions and events
-* Work with arrays and objects
-* Implement CRUD-style functionality
-* Use browser storage
-* Debug JavaScript
-* Write clean and maintainable frontend code
+You are responsible for completing the application according to the requirements in:
+
+**`TEST.md`**
+
+You must implement the required functionality yourself.
 
 ---
 
-# 2. Technology Rules
+# 3. Important Rule
+
+Read the entire `TEST.md` file before starting the implementation.
+
+The requirements in `TEST.md` are the official assessment requirements.
+
+If a requirement is mentioned in `TEST.md`, it is part of the assessment.
+
+---
+
+# 4. Technology Restrictions
+
+## You may use
 
 You may use:
 
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* Browser APIs
-* LocalStorage
-* Google Fonts
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Browser APIs
+- LocalStorage
+- Google Fonts
+- Standard browser Developer Tools
+- VS Code
+- Git
+- GitHub
 
-You must **not** use:
+You may use official documentation and normal technical references to understand concepts.
 
+---
+
+## You may NOT use
+
+The following are not allowed:
+
+- React
+- Vue
+- Angular
+- Svelte
+- jQuery
+- Bootstrap
+- Tailwind CSS
+- Material UI
+- Any JavaScript framework
+- Any CSS framework
+- Any UI component library
+- Any pre-built task management application
+- Any complete project copied from the internet
+
+The purpose of this assessment is to evaluate your HTML, CSS and JavaScript fundamentals.
+
+---
+
+# 5. Getting Started
+
+## Step 1 — Fork the Repository
+
+You will receive the GitHub repository link from your instructor.
+
+Open the repository on GitHub.
+
+Click:
+
+**Fork**
+
+Create the fork under your own GitHub account.
+
+Do not attempt to directly modify the original TrainX repository.
+
+Your fork will be your working repository.
+
+---
+
+# 6. Clone Your Repository
+
+Open your fork on GitHub.
+
+Click:
+
+**Code → HTTPS**
+
+Copy the repository URL.
+
+Open Terminal.
+
+Run:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+````
+
+Example:
+
+```bash
+git clone https://github.com/your-username/html-css-js-mock-01.git
+```
+
+Enter the project directory:
+
+```bash
+cd html-css-js-mock-01
+```
+
+---
+
+# 7. Open the Project in VS Code
+
+Run:
+
+```bash
+code .
+```
+
+Alternatively, open the cloned folder directly from VS Code.
+
+---
+
+# 8. Create Your Assessment Branch
+
+Before making any changes, create a new branch using your full name.
+
+Use this naming format:
+
+```text
+firstname-lastname
+```
+
+Example:
+
+```text
+rahul-sharma
+```
+
+Run:
+
+```bash
+git checkout -b rahul-sharma
+```
+
+Verify your current branch:
+
+```bash
+git branch
+```
+
+You should see something similar to:
+
+```text
+* rahul-sharma
+  main
+```
+
+The `*` indicates your current branch.
+
+---
+
+# 9. Important Git Rule
+
+All assessment work must be completed on your personal assessment branch.
+
+Do **NOT** complete the assignment directly on `main`.
+
+Your branch will be used as your assessment submission.
+
+---
+
+# 10. Understand the Project
+
+The repository contains:
+
+```text
+README.md
+TEST.md
+index.html
+style.css
+script.js
+debug/
+reference/
+```
+
+### README.md
+
+Contains:
+
+* Assessment instructions
+* Git workflow
+* Submission requirements
+
+### TEST.md
+
+Contains:
+
+* The actual assignment
+* Detailed requirements
+* Required functionality
+* Expected behavior
+* Completion criteria
+
+### index.html
+
+Contains the initial TaskFlow page structure.
+
+### style.css
+
+Contains starter styles.
+
+### script.js
+
+Contains starter JavaScript and incomplete functionality.
+
+### debug/
+
+Contains the JavaScript debugging exercise.
+
+### reference/
+
+Contains visual references where applicable.
+
+---
+
+# 11. Start the Application
+
+This is a static HTML/CSS/JavaScript application.
+
+You do **NOT** need:
+
+* Node.js
+* npm
+* Express
+* MongoDB
 * React
-* Vue
-* Angular
-* jQuery
-* Bootstrap
-* Tailwind CSS
-* Material UI
-* Any JavaScript framework
-* Any CSS framework
-* Any UI component library
+* Any backend server
 
-The purpose of this assessment is to evaluate your HTML, CSS, and JavaScript fundamentals.
+You can run the application directly in a browser.
 
----
+You may use the VS Code **Live Server** extension.
 
-# 3. Application — TaskFlow
+Open:
 
-You need to build a responsive task management dashboard.
+```text
+index.html
+```
 
-The application should allow a user to:
+Then use:
 
-* View tasks
-* Add tasks
-* Edit tasks
-* Delete tasks
-* Mark tasks as completed
-* Search tasks
-* Filter tasks
-* Sort tasks
-* Persist tasks using LocalStorage
+**Open with Live Server**
+
+You can also open the HTML file directly in your browser.
 
 ---
 
-# 4. Part A — HTML
+# 12. Development Process
 
-Create the required semantic structure for the application.
+You should follow this general order:
 
-Your page should contain:
-
-### Header
-
-Include:
-
-* TaskFlow logo/name
-* User information or profile area
-
-### Navigation
-
-Include navigation items for:
-
-* Dashboard
-* My Tasks
-* Completed
-
-### Main Dashboard
-
-Include:
-
-* Page heading
-* Task summary/statistics
-* Search control
-* Filter control
-* Sort control
-* Add Task button
-* Task list
-
-### Task Form
-
-The Add/Edit Task form should contain:
-
-* Task title
-* Description
-* Priority
-* Due date
-* Submit/Save button
-* Cancel button
-
-### Task Card
-
-Each task should display appropriate information such as:
-
-* Title
-* Description
-* Priority
-* Due date
-* Status
-* Edit action
-* Delete action
-* Complete action
-
-Use semantic HTML wherever appropriate.
-
-Forms must contain properly associated labels.
-
-Buttons must use `<button>` elements.
+1. Read `TEST.md`
+2. Understand the requirements
+3. Inspect the starter code
+4. Build the HTML requirements
+5. Implement the CSS requirements
+6. Implement JavaScript functionality
+7. Complete the debugging exercise
+8. Test all functionality
+9. Check responsive behavior
+10. Review the browser console
+11. Commit your changes
+12. Push your branch
+13. Create the Pull Request
 
 ---
 
-# 5. Part B — CSS
+# 13. Save Your Work Regularly
 
-Create the visual design of the TaskFlow application.
+You are encouraged to commit your work regularly.
 
-The interface should include:
+For example:
 
-### Layout
+```bash
+git add .
+git commit -m "Implement task dashboard"
+```
 
-* Header
-* Sidebar/navigation
-* Main content area
-* Task grid/list
+You may create multiple commits during the assessment.
 
-Use appropriate CSS layout techniques such as:
+Meaningful commit messages are recommended.
 
-* Flexbox
-* CSS Grid
+Examples:
 
-### Visual Styling
+```text
+Implement dashboard structure
+Add responsive styling
+Implement task creation
+Implement task filtering
+Fix localStorage persistence
+Complete debugging exercise
+```
 
-Implement:
+---
 
-* Typography
-* Spacing
-* Colors
-* Borders
-* Border radius
-* Shadows
-* Buttons
-* Form controls
-* Task cards
-* Status indicators
-* Priority indicators
+# 14. Push Your Branch
 
-### Responsive Design
+When your implementation is ready:
 
-The application must work properly on:
+```bash
+git push -u origin YOUR-BRANCH-NAME
+```
+
+Example:
+
+```bash
+git push -u origin rahul-sharma
+```
+
+---
+
+# 15. Create Your Pull Request
+
+Open your GitHub fork.
+
+GitHub should provide an option to create a Pull Request after you push your branch.
+
+Create a Pull Request from:
+
+```text
+YOUR FORK
+    ↓
+YOUR BRANCH
+```
+
+to:
+
+```text
+TRAINX-ASSESSMENT
+    ↓
+main
+```
+
+The Pull Request must target the **original assessment repository**, not your fork.
+
+---
+
+# 16. Pull Request Title
+
+Use this exact format:
+
+```text
+Submission — Your Full Name
+```
+
+Example:
+
+```text
+Submission — Rahul Sharma
+```
+
+---
+
+# 17. Pull Request Description
+
+Use the following structure:
+
+```markdown
+## Student Information
+
+Name:
+GitHub Username:
+
+## Assessment
+
+TaskFlow — HTML, CSS & JavaScript Mock Assessment
+
+## Completion Checklist
+
+- [ ] HTML requirements completed
+- [ ] CSS requirements completed
+- [ ] Responsive design completed
+- [ ] Add task completed
+- [ ] Edit task completed
+- [ ] Delete task completed
+- [ ] Complete task completed
+- [ ] Search completed
+- [ ] Filter completed
+- [ ] Sort completed
+- [ ] LocalStorage completed
+- [ ] Debugging exercise completed
+- [ ] Tested application
+- [ ] Checked browser console
+- [ ] Final changes pushed
+
+## Notes
+
+Mention anything the instructor should know about your implementation.
+```
+
+---
+
+# 18. Successful Submission
+
+Your submission is considered complete only when **ALL** of the following are true.
+
+## Git
+
+* Your work is on your personal assessment branch.
+* Your latest code has been pushed to GitHub.
+* Your Pull Request has been created.
+* Your Pull Request targets the original repository's `main` branch.
+* You have not merged your own Pull Request.
+
+## Application
+
+* The application loads successfully.
+* There are no blocking JavaScript errors.
+* Required HTML structure is present.
+* Required CSS behavior is implemented.
+* Required JavaScript functionality works.
+* The application is responsive.
+* LocalStorage works.
+* The debugging exercise is completed.
+
+## Submission
+
+Your Pull Request must contain your final implementation.
+
+Once you have created the Pull Request, do not make unrelated changes.
+
+If you discover an issue before the instructor reviews your submission, you may continue committing to your assessment branch. The Pull Request will automatically update.
+
+---
+
+# 19. Final Verification
+
+Before submitting, manually test the following.
+
+## Application
+
+* [ ] Page loads
+* [ ] Navigation is visible
+* [ ] Dashboard is visible
+* [ ] Task cards display correctly
+* [ ] Add Task works
+* [ ] Edit Task works
+* [ ] Delete Task works
+* [ ] Complete Task works
+* [ ] Search works
+* [ ] Filter works
+* [ ] Sort works
+* [ ] LocalStorage works
+* [ ] Refresh does not unexpectedly lose data
+
+## Responsive Design
+
+Check at:
 
 * Desktop
 * Tablet
 * Mobile
 
-The layout should adapt to smaller screens without unnecessary horizontal scrolling.
+## Browser Console
 
-You will be provided with reference designs where applicable.
+Open browser Developer Tools.
 
----
+Check the Console.
 
-# 6. Part C — JavaScript
-
-Implement the complete application functionality using vanilla JavaScript.
-
-## 6.1 Task Data
-
-Tasks should be represented using JavaScript objects.
-
-Each task should contain appropriate properties such as:
-
-* ID
-* Title
-* Description
-* Priority
-* Status
-* Due date
+Your final submission should not contain unnecessary JavaScript errors.
 
 ---
 
-## 6.2 Render Tasks
+# 20. Assessment Evaluation
 
-Tasks should be rendered dynamically using JavaScript.
-
-Do not hard-code every task card directly into the HTML.
-
----
-
-## 6.3 Add Task
-
-When the user selects **Add Task**:
-
-1. Display the task form.
-2. Allow the user to enter the required information.
-3. Validate the form.
-4. Create a new task.
-5. Add the task to the task list.
-6. Update the interface.
-
----
-
-## 6.4 Edit Task
-
-The user must be able to edit an existing task.
-
-When Edit is selected:
-
-1. Open the task form.
-2. Populate the existing task information.
-3. Allow changes.
-4. Save the updated task.
-5. Update the displayed task.
-
----
-
-## 6.5 Delete Task
-
-The user must be able to delete a task.
-
-Before deleting a task, display an appropriate confirmation.
-
-After confirmation, remove the task from the application.
-
----
-
-## 6.6 Complete Task
-
-The user must be able to mark a task as completed.
-
-The visual appearance of a completed task should clearly differ from a pending task.
-
----
-
-## 6.7 Search
-
-Implement a search field that allows users to search tasks.
-
-Search should update the displayed tasks dynamically.
-
-For example, searching for:
-
-`JavaScript`
-
-should display tasks matching the search term.
-
----
-
-## 6.8 Filter
-
-Implement task filtering.
-
-At minimum, provide:
-
-* All
-* Pending
-* Completed
-
-The task list should update based on the selected filter.
-
----
-
-## 6.9 Sort
-
-Implement at least one sorting option.
-
-Examples include:
-
-* Due date
-* Priority
-* Title
-
-The selected sorting option should update the displayed task order.
-
----
-
-## 6.10 LocalStorage
-
-Tasks must persist using browser LocalStorage.
-
-Example expected behavior:
-
-1. Add a task.
-2. Refresh the browser.
-3. The task should still be available.
-
-The application should load saved tasks from LocalStorage when it starts.
-
----
-
-# 7. Part D — Debugging
-
-A separate debugging exercise will be provided.
-
-You will receive JavaScript code containing intentional bugs.
-
-Your task is to:
-
-1. Identify the problems.
-2. Correct the implementation.
-3. Verify that the corrected code works.
-4. Document the issues you identified.
-
-Do not simply replace the provided code with an unrelated implementation.
-
----
-
-# 8. Code Quality
-
-Your implementation should be:
-
-* Readable
-* Well structured
-* Consistently formatted
-* Appropriately named
-* Free from unnecessary duplication
-
-Avoid placing the entire application logic inside a single JavaScript function.
-
-Organize your JavaScript into logical functions where appropriate.
-
----
-
-# 9. Assessment Restrictions
-
-You are expected to implement the solution yourself.
-
-Do not:
-
-* Copy an existing complete project
-* Use a frontend framework
-* Use a CSS framework
-* Replace the assignment with a different application
-* Remove the assessment requirements
-* Modify the assessment instructions
-
-You may use official documentation and normal developer references for understanding HTML, CSS, and JavaScript concepts.
-
----
-
-# 10. Submission
-
-Your submission must contain your completed implementation.
-
-Before submitting:
-
-* Test all functionality.
-* Check the application on different screen sizes.
-* Make sure there are no obvious console errors.
-* Make sure your final changes are committed and pushed to your assessment branch.
-
-Your instructor will review your submission using the assessment rubric.
-
----
-
-# 11. Scoring
+The assessment is evaluated out of 100 points.
 
 | Section      |  Points |
 | ------------ | ------: |
@@ -396,24 +540,104 @@ Your instructor will review your submission using the assessment rubric.
 | Code Quality |      10 |
 | **Total**    | **100** |
 
-The automated evaluation will cover the objective functionality of the application.
+Some functionality will be evaluated automatically.
 
-Code quality and other subjective criteria may be reviewed by the instructor.
-
----
-
-# 12. Expected Final Result
-
-At the end of the assessment, your TaskFlow application should provide a complete and usable task management experience.
-
-A user should be able to:
-
-**Create → View → Search → Filter → Edit → Complete → Delete**
-
-tasks and have the task data persist after refreshing the browser.
+Code quality and subjective aspects may be reviewed by an instructor.
 
 ---
 
-## Good luck!
+# 21. Academic Integrity
 
-Focus on writing clean, understandable code and make sure you test your implementation before submitting.
+This assessment is intended to measure your own practical development skills.
+
+You are expected to write and understand your implementation.
+
+Do not submit a project copied from another student or an existing complete project.
+
+If you use external documentation to understand a concept, you should still implement the solution yourself.
+
+You may be asked by the instructor to explain parts of your implementation.
+
+---
+
+# 22. Final Submission Checklist
+
+Before considering your submission complete, verify:
+
+```text
+[ ] I read TEST.md completely.
+
+[ ] I created my own assessment branch.
+
+[ ] I did not complete the assignment directly on main.
+
+[ ] I completed the HTML requirements.
+
+[ ] I completed the CSS requirements.
+
+[ ] I implemented responsive behavior.
+
+[ ] I implemented all required JavaScript functionality.
+
+[ ] I implemented CRUD operations.
+
+[ ] I implemented search.
+
+[ ] I implemented filtering.
+
+[ ] I implemented sorting.
+
+[ ] I implemented LocalStorage.
+
+[ ] I completed the debugging exercise.
+
+[ ] I tested the application.
+
+[ ] I checked the browser console.
+
+[ ] I committed my final changes.
+
+[ ] I pushed my final branch.
+
+[ ] I created the Pull Request.
+
+[ ] My Pull Request targets the original repository's main branch.
+
+[ ] I did not merge the Pull Request.
+
+[ ] I provided the required student information.
+```
+
+---
+
+# 23. Completion
+
+Your assessment is considered **submitted** when:
+
+1. Your final code is pushed to your assessment branch.
+2. Your Pull Request has been created.
+3. Your Pull Request targets the original `trainx-assessment/html-css-js-mock-01` repository.
+4. The required files and functionality are present.
+5. You have completed the Pull Request description.
+
+After submission, the instructor will review your work.
+
+**Do not merge the Pull Request.**
+
+---
+
+# Good Luck
+
+Build the application carefully.
+
+Focus on:
+
+* Clean HTML
+* Responsive CSS
+* Understandable JavaScript
+* Correct functionality
+* Good debugging practices
+* Clean Git workflow
+
+```
+```
