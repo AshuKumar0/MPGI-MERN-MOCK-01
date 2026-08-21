@@ -265,38 +265,6 @@ Submission — Rahul Sharma
 
 ---
 
-## 10. Pull Request Description
-
-Add:
-
-```markdown
-## Student Information
-
-Name: Rahul Sharma
-GitHub Username: rahulsharma
-
-## Submission Checklist
-
-- [x] HTML completed
-- [x] CSS completed
-- [x] Responsive design completed
-- [x] JavaScript functionality completed
-- [x] CRUD operations completed
-- [x] Search completed
-- [x] Filter completed
-- [x] Sort completed
-- [x] LocalStorage completed
-- [x] Debugging exercise completed
-- [x] Application tested
-- [x] Final changes pushed
-
-## Notes
-
-Add any relevant information for the instructor here.
-```
-
----
-
 # Successful Submission
 
 Your assessment will be considered successfully submitted when:
@@ -309,32 +277,6 @@ Your assessment will be considered successfully submitted when:
 * Your Pull Request has been created.
 * The Pull Request targets the original repository's `main` branch.
 * You have **not merged the Pull Request**.
-
----
-
-# Final Check Before Submission
-
-Before creating your Pull Request, verify:
-
-```text
-✓ Application opens correctly
-✓ HTML is complete
-✓ CSS is complete
-✓ Responsive design works
-✓ Add Task works
-✓ Edit Task works
-✓ Delete Task works
-✓ Complete Task works
-✓ Search works
-✓ Filter works
-✓ Sort works
-✓ LocalStorage works
-✓ Debugging exercise completed
-✓ No avoidable console errors
-✓ Final changes committed
-✓ Final branch pushed
-✓ Pull Request created
-```
 
 ---
 
