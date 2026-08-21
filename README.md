@@ -27,34 +27,6 @@ Read `TEST.md` completely before starting the assessment.
 
 ---
 
-## Technology Restrictions
-
-### Allowed
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Browser APIs
-- LocalStorage
-- VS Code
-- Git
-- GitHub
-
-### Not Allowed
-
-- React
-- Vue
-- Angular
-- jQuery
-- Bootstrap
-- Tailwind CSS
-- JavaScript frameworks
-- CSS frameworks
-- UI component libraries
-- Complete projects copied from the internet
-
----
-
 # Getting Started
 
 ## 1. Fork the Repository
