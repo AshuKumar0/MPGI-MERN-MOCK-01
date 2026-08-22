@@ -1,6 +1,4 @@
-# MPGI-MERN-MOCK-01
-
-# TaskFlow — HTML, CSS & JavaScript Mock Assessment
+# MPGI-MERN-MOCK-01 - Instructions 
 
 ## Assessment Details
 
