@@ -3,6 +3,7 @@
 ## Assessment Details
 
 | | |
+|---|---|
 | **Duration** | 3 Hours |
 | **Technology** | HTML5, CSS3, JavaScript |
 | **Difficulty** | Intermediate |
