@@ -167,28 +167,6 @@ You may also use the **Live Server** extension in VS Code.
 
 ---
 
-# Development
-
-Complete the following areas:
-
-* HTML structure
-* CSS styling
-* Responsive design
-* Task management functionality
-* Add Task
-* Edit Task
-* Delete Task
-* Complete Task
-* Search
-* Filter
-* Sort
-* LocalStorage
-* JavaScript debugging exercise
-
-Refer to `TEST.md` for the exact requirements.
-
----
-
 # Save Your Work
 
 You may commit your work regularly.
