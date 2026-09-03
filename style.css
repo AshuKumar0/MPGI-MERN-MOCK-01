@@ -1,0 +1,147 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.option {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.option input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #188c3d;
+}
+
+.submitted {
+    width: 70%;
+    margin: 50px auto;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.student-card {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+    position: relative;
+    min-height: 150px;
+}
+
+.student-card h3 {
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.student-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.student-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.student-card button {
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 16px;
+}
+
+.student-card button:hover {
+    background-color: darkred;
+}
+
+#photo {
+    display: none;
+}
+
+#uploadBtn {
+    background-color: #2864e8;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+}
+
+#uploadBtn:hover {
+    background-color: #1d4fc4;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
