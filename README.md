@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Duration** | 3 Hours |
+| **Duration** | 2 Hours |
 | **Technology** | HTML5, CSS3, JavaScript |
 | **Difficulty** | Intermediate |
 | **Total Marks** | 100 |
